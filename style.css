@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+body {
+    background-color: rgb(249, 255, 180);
+}
+
+main {
+    margin: 1rem;
+}
+
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #5c0b17;
+}
+
+h2 {
+    font-family: "Tangerine", cursive;
+    font-weight: 800;
+    font-size: 3rem;
+    color: #3b0d14;
+}
+
+
+img {
+    width: 40rem;
+    height: 20rem;
+    border: 0.2rem;
+    border-style: solid;
+    border-color: #6d6019;
+    border-radius: 0.15rem;
+}
+
+hr {
+    border-style: dotted;
+    border-color: #6d6019;
+}
+
+ul {
+    padding-top: 1rem;
+}
+
+
+/*  introdução */
+.principal1 {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch; /* Garante que todos fiquem com a mesma altura */
+    gap: 1.5em;
+
+}
+
+.texto {
+    flex: 1; /*vai deixar tudo do mesmo tamanho finalmente*/
+    background-color: #8B1E2F;
+    font-size: 1.5em;
+    color: aliceblue;
+    padding: 2.5rem; /* Reduzido para dar respiro ao texto */
+    border-radius: 0.5rem;
+}
+
+.video {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    
+}
+
+.vdo {
+    width: 100%;
+    height: 100%; /* Força o vídeo a acompanhar a altura dos outros */
+    object-fit: cover; 
+    border-radius: 0.5rem;
+}
+
+.lista {
+    flex: 1;
+    background-color: #8B1E2F;
+    font-size: 1.5em;
+    color: aliceblue;
+    padding: 2.5rem 2.5rem 2.5rem 4rem; /* Espaço extra na esquerda para as bolinhas */
+    justify-items: center;
+    border-radius: 0.5rem;
+}
+
+figcaption {
+    font-size: 1rem;
+    text-align: center;
+}
+
+/* Capela e Basílica*/
+.capela_basilica {
+    display: flex;
+    flex-direction: row;
+}
+
+.capela_basilica2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.textocapbas {
+    flex-grow: 1;
+    font-size: 1.5em;
+    color: rgb(92, 46, 46);
+    padding: 5rem;
+}
+
+.imgcapbas {
+    flex-grow: 1;
+    font-size: 1.5em;
+    color: rgb(92, 46, 46);
+    padding: 2rem;
+}
+
+/*museu*/
+.museus {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+.texto_museus {
+    flex-grow: 1;
+    font-size: 1.5em;
+    color: rgb(92, 46, 46);
+    padding: 5rem;
+}
+
+.imgmuseu {
+    flex-grow: 1;
+    font-size: 1.5em;
+    color: aliceblue;
+    padding: 2rem;
+}
+
+a {
+    color: rgb(58, 14, 14);
+}
+
+footer {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    text-align: center;
+    color: #8B1E2F;
+    font-size: 2.5rem;
+}
+
