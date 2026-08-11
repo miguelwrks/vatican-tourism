@@ -51,19 +51,6 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 
 ---
 
-## 💻 Como Executar o Projeto
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-```
-
-
-2. Navegue até a pasta do projeto e abra o arquivo `portal.html` diretamente no seu navegador.
-
----
-
 ## 👤 Autor
 
 Desenvolvido por **Miguel Gonçalves**.
