@@ -27,7 +27,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 ## 📂 Estrutura de Arquivos
 
 ```text
-├── ativ04b/
+├── ativ04b/               # agora essa pasta é o repositório
 │   ├── reset.css          # Estilos de reset universal
 │   ├── style.css          # Estilização principal do projeto
 │   └── media/             # Arquivos de mídia (imagens, vídeos e ícones)
@@ -37,7 +37,7 @@ O projeto foi desenvolvido com as seguintes tecnologias:
 │       ├── st_peters_basilica.jpg
 │       └── vaticantour.mp4
 │
-└── portal.html            # Estrutura principal em HTML
+└── index.html            # Estrutura principal em HTML
 
 ```
 
